@@ -1,0 +1,7 @@
+Сущность: astigmatism, Метка: DISEASE
+Сущность: opacity, Метка: DISEASE
+Сущность: cosmetic and visual benefits of dermoid excision, Метка: DISEASE
+Сущность: palsy, Метка: DISEASE
+Сущность: Idiopathic facial paralysis, Метка: DISEASE
+Сущность: Bell's palsy, Метка: DISEASE
+Сущность: corticosteroids, Метка: CHEMICAL
