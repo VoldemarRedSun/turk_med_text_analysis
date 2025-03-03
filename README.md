@@ -5,7 +5,7 @@ available texts lie in data_input/
 ```bash
 pip install poetry==1.5.1
 git clone https://github.com/VoldemarRedSun/turk_med_text_analysis
-cd turkic_medicine_nlp
+cd turk_med_text_analysis
 ```
 put the file here downloaded from [link](https://drive.google.com/drive/folders/19Ffnh59SIJQPK8XM42ehi_owWP63OGMp?usp=sharing)
 ```bash
