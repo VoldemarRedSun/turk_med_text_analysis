@@ -20,7 +20,6 @@ python turkic_medicine_nlp/spacy_ner.py
 ## RUN NER WITH HuggingFace
 ### available ner models:
 * GENERAL_TURKISH_MODEL = "akdeniz27/bert-base-turkish-cased-ner"
-* MEDICAL_TURKISH_MODEL = "akdeniz27/mDeBERTa-v3-base-turkish-ner"
 * MEDICAL_ENGLISH_MODEL_1 = "d4data/biomedical-ner-all"
 * MEDICAL_ENGLISH_MODEL_2 = "Helios9/BioMed_NER"
 ### available texts:

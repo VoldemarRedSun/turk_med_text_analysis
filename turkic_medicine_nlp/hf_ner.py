@@ -8,7 +8,6 @@ OUTPUT_PATH = Path(__file__).parent.parent / "data_output"
 
 class HfNerModels:
     GENERAL_TURKISH_MODEL = "akdeniz27/bert-base-turkish-cased-ner"
-    MEDICAL_TURKISH_MODEL = "akdeniz27/mDeBERTa-v3-base-turkish-ner"
     MEDICAL_ENGLISH_MODEL_1 = "d4data/biomedical-ner-all"
     MEDICAL_ENGLISH_MODEL_2 = "Helios9/BioMed_NER"
 
@@ -30,6 +29,6 @@ def make_and_save_ner(model_name: str, input_text_path: str | Path):
     Path(output_path).write_text(output)
 
 if __name__ == "__main__":
-    make_and_save_ner(model_name = HfNerModels.MEDICAL_ENGLISH_MODEL_2, input_text_path=EN_TEXT_PATH)
+     make_and_save_ner(model_name = HfNerModels.MEDICAL_ENGLISH_MODEL_2, input_text_path=EN_TEXT_PATH)
 
 
